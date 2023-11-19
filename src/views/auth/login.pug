@@ -1,0 +1,17 @@
+extends ../layout
+
+block content
+    div.div-ul
+        form.login-form(action="/login", method="post")
+            h1.login-title Iniciar Sesión
+            if error 
+                p(class="error")= error
+            label.label-class(for="email") email
+            input.input-class(type="text", name="email", id="email")
+            label.label-class(for="password") Contraseña
+            input.input-class(type="password", name="password", id="password")
+            input.button-class(type="submit", value="Iniciar sesión")
+
+            div.register-link
+                p ¿No tienes una cuenta?
+                a(href="/register") Registrarse

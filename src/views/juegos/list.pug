@@ -1,0 +1,14 @@
+extends ../layout
+
+block content
+
+  if error
+    p(class='error') #{error}
+
+  .juegos-container
+    each juego in juegos
+      .juego
+        a(href='/juegos/'+juego.id)
+          img(src=juego.imagen, alt=`Imagen de ${juego.titulo}`)
+        h2 #{juego.titulo}
+        p Tamaño: #{juego.tamano} GB

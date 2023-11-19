@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+@font-face {
+    font-family: 'MiFuente';
+    src: url('../fonts/FunGames.ttf') format('truetype');
+}
+
+body {
+    background-image: url(https://cdn.discordapp.com/attachments/1100831940199858298/1174373074049716295/fondo.jpg?ex=65675b27&is=6554e627&hm=ad596134bbedb955d2f843bf51e2eb1bbecd2fa5b6c2c3f706abd1b2ccb6536f&);
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 2px solid #1f1f1f;
+  }
+  
+h1.center {
+    font-family: 'MiFuente';
+    text-align: center;
+    margin: 0;
+    font-size: 50px;
+}
+  
+.logo {
+    width: 100px;
+    height: auto; 
+  }
+
+nav {
+    background-color: #171717;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid #1f1f1f;
+    width: 210px;
+}
+
+button {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+.title-home {
+    text-align: center;
+    color: #fff;
+}
+
+.login-title,
+.register-title,
+.home-form,
+p {
+    text-align: center;
+    color: #fff;
+}
+
+a {
+    padding: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.login-form,
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-class {
+    width: 70%;
+    margin: auto;
+    border: 1px solid #444;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.button-class {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    padding: 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-class:hover {
+    background-color: #2980b9;
+}
+
+.label-class {
+    text-align: center;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+}
+
+.div-ul {
+    border-radius: 5px;
+    background-color: #171717;
+    width: 60%;
+    margin: auto;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.home-ul {
+    border-radius: 5px;
+    background-color: #171717;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.label-class-home {
+    text-align: center;
+    padding: 10px;
+    font-weight: 300;
+    font-size: 18px;
+    color: #fff;
+}
+
+.input-class-home {
+    width: 70%;
+    margin: auto;
+    border: 1px solid #444;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.button-class-home {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    padding: 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-class-home:hover {
+    background-color: #2980b9;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.img-title {
+    margin-top: 20px;
+}
+
+.register-title {
+    margin-bottom: 20px;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.register-link p {
+    font-size: 18px;
+    color: #ccc;
+}
+
+.register-link a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.register-link a:hover {
+    color: #2980b9;
+}
+
+.register-link p {
+    font-weight: bolder;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    justify-items: center;
+    align-items: center;
+    border-radius: 5px;
+    border-color: #fff;
+    padding: 0px 20px; /* Ajusta el padding según sea necesario */
+}
+
+
+.juegos-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.juego {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 300px; /* Ajusta el ancho según sea necesario */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #000;
+    transition: transform 0.3s ease-in-out;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 1);
+}
+
+.juego-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* O ajusta según sea necesario */
+  }
+  
+.juego-details {
+    background-color: #171717;
+    padding: 40px;
+    display: flex;
+    flex-direction: row; /* Cambia la dirección del flujo a horizontal */
+    max-width: 1200px; /* Ajusta según sea necesario */
+    margin: auto;
+}
+  
+.juego-details img {
+    width: 70%; /* Ajusta según sea necesario */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    margin-right: 20px; /* Ajusta según sea necesario */
+}
+  
+.text-details {
+    display: flex;
+    flex-direction: column; /* Cambia la dirección del flujo a vertical */
+    justify-content: center; /* Centra verticalmente el contenido */
+}
+  
+.juego-details h1,
+.juego-details h2,
+.juego-details p {
+    color: white;
+    text-align: center; /* Centra horizontalmente el texto */
+}
+  
+.juego-details h1 {
+    margin-bottom: 10px; /* Ajusta según sea necesario */
+}
+  
+button {
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    padding: 12px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.juego img {
+    width: 100%;
+    height: 350px; /* Ajusta la altura según sea necesario para que todas las imágenes sean más grandes */
+    object-fit: cover;
+    border-radius: 5px 5px 0 0;
+    transition: transform 0.3s ease-in-out;
+}
+
+.juego:hover {
+    transform: scale(1.2);
+}
+
+.juego:hover img {
+    transform: scale(1.2);
+}
+
+.juego h2,
+.juego p,
+.juego a {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .button-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+    }
+}
+
+form {
+    margin-bottom: 0;
+}

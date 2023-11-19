@@ -1,0 +1,27 @@
+html(lang="es")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title VAPOR
+    link(rel="stylesheet", href="/css/style.css")
+  body
+    nav
+      a(href="/login") Home
+      a(href="/juegos") Biblioteca
+      a(href="/logout") Logout
+
+    header
+      div.container
+        h1.center VAPOR
+        img.logo(src="/assets/logo.png", alt="Logo de la pagina", class="logo")
+
+    block content
+
+    footer
+      p
+        | © 2023 
+        span.circle
+          | Victor Entertainment
+
+    script(type="module", src="js/layout.js")
+    block script

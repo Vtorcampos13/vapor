@@ -1,0 +1,15 @@
+extends ../layout
+
+block content
+  if error
+    p(class='error') #{error}
+
+  .juego-div
+    .juego-details
+      img(src=juego.imagen, alt=`Imagen de ${juego.titulo}`)
+      .text-details
+        h1 #{juego.titulo}
+        p Tamaño: #{juego.tamano} GB
+        h2 Descripción
+        p Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi assumenda perferendis laudantium, quia facere nulla ullam dignissimos? Nulla obcaecati similique officia possimus itaque, reiciendis recusandae ex corrupti minus assumenda ut!
+        button(type='button') Instalar

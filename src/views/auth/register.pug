@@ -1,0 +1,18 @@
+extends ../layout
+
+block content
+    div.div-ul
+        form.register-form(action="/register", method="post")
+            h1.register-title Registro
+            if error 
+                p(class="error")=error 
+
+            label.label-class(for="nickname") Nickname 
+            input.input-class(type="text", name="nickname", id="nickname")
+            label.label-class(for="email") Email
+            input.input-class(type="text", name="email", id="email")
+            label.label-class(for="password") Password
+            input.input-class(type="password", name="password", id="password")
+            label.label-class(for="passwordConfirm") Repetir contraseña
+            input.input-class(type="password", name="passwordConfirm", id="passwordConfirm")
+            input.button-class(type="submit", value="Registrarte", style="margin-bottom: 20px;")
