@@ -3,27 +3,11 @@ Descripción del Proyecto
 
 Vapor es un proyecto de backend diseñado para gestionar y optimizar la experiencia de la biblioteca de juegos, simulando la instalación y desinstalación de videojuegos. La aplicación proporciona funcionalidades específicas para mejorar la experiencia de los usuarios al gestionar su colección de juegos.
 Características Principales
-Gestión de Juegos
+Gestión de Juegos:
 
     Reserva de Juegos: Permite a los usuarios reservar juegos específicos en la biblioteca, marcándolos como "instalados" con fecha de inicio y finalización.
 
     Información en Tiempo Real: Proporciona información en tiempo real sobre el estado de instalación de los juegos, indicando si están activos o desinstalados.
-
-Pagos y Suscripciones
-
-    Pago de Juegos: Facilita el pago de videojuegos a través de la aplicación, con diferentes tarifas según la popularidad y demanda de los juegos.
-
-Generador de Penalizaciones
-
-    Penalizaciones: Se generan penalizaciones si un usuario excede el tiempo de uso permitido de un juego específico.
-
-Historial y Estadísticas
-
-    Historial de Juegos: Mantiene un registro del historial de juegos de los usuarios, incluyendo títulos jugados, horas de juego y preferencias.
-
-Admin
-
-    Posibilidad de Eliminar Penalizaciones: Permite a los administradores eliminar penalizaciones y ofrece visibilidad de los diferentes usuarios registrados en la app.
 
 Uso del Proyecto
 
