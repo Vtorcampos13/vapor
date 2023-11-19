@@ -20,7 +20,7 @@ const sequelize = new Sequelize(
     
 );
 
-async function probarConexion(){
+/* async function probarConexion(){
     try {
         await sequelize.authenticate();
         console.log('Conexión con BBDD OK');
@@ -29,6 +29,6 @@ async function probarConexion(){
       }
 }
 
-probarConexion();
+probarConexion(); */
 
 export default sequelize;
