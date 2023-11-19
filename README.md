@@ -2,7 +2,9 @@ Vapor - Sistema de Gestión de Biblioteca de Juegos
 Descripción del Proyecto
 
 Vapor es un proyecto de backend diseñado para gestionar y optimizar la experiencia de la biblioteca de juegos, simulando la instalación y desinstalación de videojuegos. La aplicación proporciona funcionalidades específicas para mejorar la experiencia de los usuarios al gestionar su colección de juegos.
+
 Características Principales
+
 Gestión de Juegos:
 
     Reserva de Juegos: Permite a los usuarios reservar juegos específicos en la biblioteca, marcándolos como "instalados" con fecha de inicio y finalización.
