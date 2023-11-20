@@ -22,5 +22,6 @@ describe('usuariosModel Tests', () => {
     // Verifica que el usuario se haya creado correctamente
     expect(user.nickname).toBe('testuser');
     expect(user.email).toBe('testuser@example.com');
+    expect(user.password).toBe('testpassword');
   });
 });
