@@ -3,21 +3,10 @@ Descripción del Proyecto
 
 Vapor es un proyecto de backend diseñado para gestionar y optimizar la experiencia de la biblioteca de juegos, simulando la instalación y desinstalación de videojuegos. La aplicación proporciona funcionalidades específicas para mejorar la experiencia de los usuarios al gestionar su colección de juegos.
 
-Características Principales
-
-Gestión de Juegos:
-
-    Reserva de Juegos: Permite a los usuarios reservar juegos específicos en la biblioteca, marcándolos como "instalados" con fecha de inicio y finalización.
-
-    Información en Tiempo Real: Proporciona información en tiempo real sobre el estado de instalación de los juegos, indicando si están activos o desinstalados.
 
 Uso del Proyecto
 
-    Clona este Repositorio:
-
-    bash
-
-git clone git@github.com:Vtorcampos13/vapor.git
+    Clona este Repositorio: git clone git@github.com:Vtorcampos13/vapor.git
 
 Configura las Variables de Entorno:
 
@@ -25,17 +14,19 @@ Crea un archivo .env en la raíz del proyecto. Puedes ver la plantilla .env.exam
 
 Completa las variables de entorno con la información necesaria.
 
-Inicializa la Aplicación Utilizando Docker Compose:
-
-    bash
-
-    docker-compose up --build
 
 Instala las Dependencias:
 
     bash
 
     npm install
+
+Inicializa la Aplicación Utilizando Docker Compose:
+
+    bash
+
+    docker-compose up --build
+
 
 Ejecuta la Aplicación:
 
