@@ -27,15 +27,15 @@ Completa las variables de entorno con la información necesaria.
 
 Inicializa la Aplicación Utilizando Docker Compose:
 
-bash
+    bash
 
-docker-compose up --build
+    docker-compose up --build
 
 Instala las Dependencias:
 
-bash
+    bash
 
-npm install
+    npm install
 
 Ejecuta la Aplicación:
 
