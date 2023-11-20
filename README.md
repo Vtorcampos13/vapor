@@ -21,7 +21,7 @@ git clone git@github.com:Vtorcampos13/vapor.git
 
 Configura las Variables de Entorno:
 
-Crea un archivo .env en la raíz del proyecto. Puedes ver la plantilla .env.example para rellenar tu .env. Dejar el nombre de la BBDD como ##vapor## para que no de problemas.
+Crea un archivo .env en la raíz del proyecto. Puedes ver la plantilla .env.example para rellenar tu .env. Dejar el nombre de la BBDD como **vapor** para que no de problemas.
 
 Completa las variables de entorno con la información necesaria.
 
